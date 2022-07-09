@@ -5,15 +5,43 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <div>Hello</div>
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+let users = [
+    {
+        name: "Alex",
+        age: 10,
+        address: {
+            city: "Cheboksary",
+            country: "Russia"
+        }
+    },
+    {
+        name: "Misha",
+        age: 23,
+        address: {
+            city: "Orenburg",
+            country: "Russia"
+        }
+    }
+]
+
+let b: Array<number | string>;
+
+b = [1, 2, 3]
+b = []
+b = [3,7,88]
+b = [1, 3, "dfgfh"]
+
+console.log(b)
+
