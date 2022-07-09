@@ -38,9 +38,6 @@ let users = [
 
 let b: Array<number | string>;
 
-b = [1, 2, 3]
-b = []
-b = [3,7,88]
 b = [1, 3, "dfgfh"]
 
 console.log(b)
